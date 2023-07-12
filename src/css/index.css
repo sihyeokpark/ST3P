@@ -1,8 +1,16 @@
 @import 'reset.css';
 
+*, :before, :after  {
+  box-sizing: border-box;
+}
+
 body {
   --white: #fffefc;
   --gray: #7d7d8e;
+
+  --bar-color: #fff;
+  --ball-color: #fff;
+  --bg-color: #EA4961;
 
   margin: 0;
   font-family: 'SUIT', sans-serif;
@@ -58,4 +66,19 @@ ul {
 
 nav a {
   font-size: 0.9rem;
+}
+
+section {
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #dadee2;
+  margin-bottom: 15px;
+}
+
+section h1 {
+  flex: 60%;
 }

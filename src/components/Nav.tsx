@@ -9,9 +9,9 @@ export function Nav() {
           <h1>ST3P</h1>
         </div>
         <ul>
-          <a href='#'>Home</a>
-          <a href='#'>About</a>
-          <a href='#'>Member</a>
+          <a href='/'>Home</a>
+          <a href='/about'>About</a>
+          <a href='/member'>Member</a>
         </ul>
       </nav>
     </>

@@ -19,9 +19,9 @@ function App() {
         <Nav />
         <div>
           <section>
-            <h1 className='big'>The BEST Youth <br></br>Hacking Team</h1>
+            <h1 className='big'>The BEST Youth <br></br><span className='gradient'>Hacking</span> Team</h1>
             <main className="main">
-              <section className={(!isCubeIn) ? "scene toggle" : 'scene toggle is-in'}>
+              <div className={(!isCubeIn) ? "scene toggle" : 'scene toggle is-in'}>
                 <div className="cubes">
                   <div className="shadows"></div>
                   <div className="cube-wrap cube-wrap--1">
@@ -75,7 +75,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
             </main>
           </section>
           <p>The best youth hacking team in Korea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>

@@ -1,0 +1,61 @@
+@import 'reset.css';
+
+body {
+  --white: #fffefc;
+  --gray: #7d7d8e;
+
+  margin: 0;
+  font-family: 'SUIT', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  max-width: 1100px;
+  flex-direction: column;
+  justify-content: left;
+  gap: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #dadee2;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0px 20px;
+}
+
+nav a {
+  font-size: 0.9rem;
+}

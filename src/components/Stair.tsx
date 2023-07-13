@@ -10,7 +10,7 @@ export function Stair() {
   }, [])
 
   return (
-    <main className="main">
+    <div className="main">
       <div className={(!isCubeIn) ? "scene toggle" : 'scene toggle is-in'}>
         <div className="cubes">
           <div className="shadows"></div>
@@ -66,6 +66,6 @@ export function Stair() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

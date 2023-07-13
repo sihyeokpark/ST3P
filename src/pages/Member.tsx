@@ -1,34 +1,36 @@
+import { motion } from 'framer-motion'
+
 import logo from '../images/logo.png'
 
 export function Member() {
   return (
     <>
       <div className='members'>
-        <div className='member'>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
           <p><strong>나는재영</strong></p>
           <p>Pwn</p>
-        </div>
-        <div className='member'>
+        </motion.div>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
           <p><strong>BEEP</strong></p>
           <p>Rev</p>
-        </div>
-        <div className='member'>
+        </motion.div>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
           <p><strong>exon</strong></p>
           <p>Web</p>
-        </div>
-        <div className='member'>
+        </motion.div>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
           <p><strong>Wane</strong></p>
           <p>Rev</p>
-        </div>
-        <div className='member'>
+        </motion.div>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
           <p><strong>나는재영</strong></p>
           <p>Crypto</p>
-        </div>
+        </motion.div>
       </div>
     </>
   )

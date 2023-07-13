@@ -26,8 +26,17 @@
   line-height: 3.5rem;
 }
 
+section.maintitle {
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+}
+
+.about {
+}
+
 .line {
-  text-decoration: underline #000 2px;
+  text-decoration: underline var(--gray) 5px;
 }
 
 .members {

@@ -13,11 +13,6 @@ export function Member() {
         </motion.div>
         <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
-          <p><strong>BEEP</strong></p>
-          <p>Rev</p>
-        </motion.div>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
           <p><strong>exon</strong></p>
           <p>Web</p>
         </motion.div>
@@ -28,8 +23,13 @@ export function Member() {
         </motion.div>
         <motion.div className='member' whileHover={{ scale: 1.05 }}>
           <img src={logo} alt='avatar'/>
-          <p><strong>나는재영</strong></p>
+          <p><strong>s0lwoo</strong></p>
           <p>Crypto</p>
+        </motion.div>
+        <motion.div className='member' whileHover={{ scale: 1.05 }}>
+          <img src={logo} alt='avatar'/>
+          <p><strong>BEEP</strong></p>
+          <p>Rev</p>
         </motion.div>
       </div>
     </>

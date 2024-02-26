@@ -1,36 +1,32 @@
 import { motion } from 'framer-motion'
+import React from 'react'
 
 import logo from '../images/logo.png'
 
 export function Member() {
+  const members = [
+    ['나는재영', 'Pwn', logo],
+    ['exon', 'Web', logo],
+    ['Wane', 'Rev', logo],
+    ['s0lwoo', 'Crypto', logo],
+    ['BEEP', 'Rev', logo],
+    ['is07king', 'Web, Pwn', logo],
+  ]
+
   return (
     <>
       <div className='members'>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
-          <p><strong>나는재영</strong></p>
-          <p>Pwn</p>
-        </motion.div>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
-          <p><strong>exon</strong></p>
-          <p>Web</p>
-        </motion.div>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
-          <p><strong>Wane</strong></p>
-          <p>Rev</p>
-        </motion.div>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
-          <p><strong>s0lwoo</strong></p>
-          <p>Crypto</p>
-        </motion.div>
-        <motion.div className='member' whileHover={{ scale: 1.05 }}>
-          <img src={logo} alt='avatar'/>
-          <p><strong>BEEP</strong></p>
-          <p>Rev</p>
-        </motion.div>
+        {
+          members.map((member, _) => {
+            return (
+              <motion.div key={member as any} className='member' whileHover={{ scale: 1.05 }}>
+                <img src={member[2]} alt='avatar'/>
+                <p><strong>{member[0]}</strong></p>
+                <p>{member[1]}</p>
+              </motion.div>
+            )
+          })
+        }
       </div>
     </>
   )

@@ -8,7 +8,7 @@ export function Member() {
     ['나는재영', 'Pwn', logo],
     ['exon', 'Web', logo],
     ['Wane', 'Rev', logo],
-    ['s0lwoo', 'Cryto', logo],
+    ['s0lwoo', 'Crypto', logo],
     ['BEEP', 'Pwn', logo],
     ['is07king', 'Web, Pwn', logo],
   ]

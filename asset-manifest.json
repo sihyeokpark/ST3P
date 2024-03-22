@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ebbaae1.css",
-    "main.js": "/static/js/main.0b208c5a.js",
+    "main.css": "/static/css/main.22b8a382.css",
+    "main.js": "/static/js/main.518791e5.js",
     "static/media/codegolf.jpg": "/static/media/codegolf.ba0fee4f406ce4aa7983.jpg",
     "static/media/logo.png": "/static/media/logo.f11274ccc8fe281bdabf.png",
+    "static/media/wane.jpg": "/static/media/wane.50fe5aad1319e3d70200.jpg",
     "index.html": "/index.html",
-    "main.4ebbaae1.css.map": "/static/css/main.4ebbaae1.css.map",
-    "main.0b208c5a.js.map": "/static/js/main.0b208c5a.js.map"
+    "main.22b8a382.css.map": "/static/css/main.22b8a382.css.map",
+    "main.518791e5.js.map": "/static/js/main.518791e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ebbaae1.css",
-    "static/js/main.0b208c5a.js"
+    "static/css/main.22b8a382.css",
+    "static/js/main.518791e5.js"
   ]
 }
